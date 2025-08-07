@@ -1,0 +1,106 @@
+name: first_app
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.1 <4.0.0"
+dependencies:
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  easy_date_timeline: ^1.0.2
+  equatable: ^2.0.5
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  firebase_core_platform_interface: ^5.0.0
+  firebase_database: ^10.3.6
+  firebase_storage: ^11.6.6
+  cloud_firestore: ^4.15.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_chat_types: ^3.6.2
+  flutter_chat_ui: ^1.6.12
+  gap: ^3.0.1
+  geodesy: ^0.10.2
+  geolocator: ^10.1.0
+  get_it: ^7.6.4
+  google_maps_flutter: ^2.5.3
+  google_places_for_flutter: ^1.0.1
+  image_picker: ^1.0.7
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  syncfusion_flutter_datepicker: ^24.1.45
+  timeago: ^3.6.1
+  uuid: ^4.3.3
+
+  web: ^0.4.0
+  cached_network_image: ^3.3.1
+  collection: ^1.18.0
+  dotted_border: ^2.1.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/cities_data/
+    - assets/images/
+    - assets/images/admin_features/login/
+    - assets/images/admin_features/admin_navigation_drawer/
+    - assets/images/admin_features/admin_dashboard/
+    - assets/images/admin_features/admin_verification/
+    - assets/images/admin_features/admin_patient_list/
+    - assets/images/auth/doctor/
+    - assets/images/patient_features/bottom_navigation/
+    - assets/images/patient_features/home/
+    - assets/images/patient_features/profile/
+    - assets/images/patient_features/find/
+    - assets/images/patient_features/doctor_details/
+    - assets/images/patient_features/appointment_details/
+    - assets/images/patient_features/doctor_details/badges/
+    - assets/images/patient_features/doctor_availability/
+    - assets/images/patient_features/doctor_office_address/
+    - assets/images/patient_features/book_appointment/
+    - assets/images/patient_features/consultation/
+    - assets/images/patient_features/consultation_details/
+    - assets/images/patient_features/cycle_history/
+    - assets/images/patient_features/forums/
+    - assets/images/patient_features/my_forums/
+    - assets/images/patient_features/emergency_announcement/
+    - assets/images/home_dashboard_doctor_submenu/
+    - assets/images/doctor_features/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: SF UI Display
+      fonts:
+        - asset: assets/fonts/sf ui display/sf-ui-display-black.otf
+        - asset: assets/fonts/sf ui display/sf-ui-display-bold.otf
+        - asset: assets/fonts/sf ui display/sf-ui-display-heavy.otf
+        - asset: assets/fonts/sf ui display/sf-ui-display-light.otf
+        - asset: assets/fonts/sf ui display/sf-ui-display-medium.otf
+        - asset: assets/fonts/sf ui display/sf-ui-display-semibold.otf
+        - asset: assets/fonts/sf ui display/sf-ui-display-thin.otf
+        - asset: assets/fonts/sf ui display/sf-ui-display-ultralight.otf
+
+    - family: Cormorant Upright
+      fonts:
+        - asset: assets/fonts/Cormorant Upright/CormorantUpright-Bold.ttf
+        - asset: assets/fonts/Cormorant Upright/CormorantUpright-Light.ttf
+        - asset: assets/fonts/Cormorant Upright/CormorantUpright-Medium.ttf
+        - asset: assets/fonts/Cormorant Upright/CormorantUpright-Regular.ttf
+        - asset: assets/fonts/Cormorant Upright/CormorantUpright-SemiBold.ttf
