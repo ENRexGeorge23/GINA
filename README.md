@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="httpsa://raw.githubusercontent.com/your-repo/your-project/main/assets/images/gina_logo.png" alt="GINA Logo" width="150"/>
+<!--   <img src="httpsa://raw.githubusercontent.com/your-repo/your-project/main/assets/images/gina_logo.png" alt="GINA Logo" width="150"/> -->
   <h1>GINA</h1>
   <p><i>Your Guide, Your Health, Your Space</i></p>
   <p>A comprehensive mobile application connecting patients with gynecologists, fostering a community for women's health, and streamlining administrative oversight.</p>
